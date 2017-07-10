@@ -15,14 +15,16 @@ A Dockerfile is provided which allows for creating your own backbone image using
 | WALLET_SEED  | Pre-existing wallet private key  |
 
 ### Building the Docker image using the above arguments
-```docker build \
+```
+docker build \
   --build-arg DOMAIN=<DOMAIN> \
   --build-arg BRANCH=<BRANCH> \
   --build-arg WALLET_SEED=<WALLET_SEED> \
   --build-arg KEY=<KEY> \
   --build-arg CRT=<CRT> \
   --build-arg PORT=<PORT> \
-  -t nimiq .```
+  -t nimiq .
+```
 
 ### Running an instance of the image
 
