@@ -32,5 +32,5 @@ docker build \
 
 Note that you can override any of the arguments which were baked into the image at runtime with exception to the *BRANCH*
 
-###Check status
+### Check status
 `docker logs -f <instance_id_or_name>`
