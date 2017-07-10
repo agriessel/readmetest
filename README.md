@@ -30,5 +30,7 @@ docker build \
 
 `docker run -d -p 8080:8080 -v /etc/letsencrypt/:/etc/letsencrypt/ --name "nimiq" nimiq`
 
+Note that you can override any of the arguments which were baked into the image at runtime with exception to the *BRANCH*
+
 ###Check status
-docker logs -f <instance_id_or_name>
+`docker logs -f <instance_id_or_name>`
